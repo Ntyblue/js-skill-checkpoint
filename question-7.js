@@ -11,3 +11,12 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+/*
+ลอง
+const newProductList = [];
+firstProductList.map((array) => newProductList.push(array));
+secondProductList.map((array) => newProductList.push(array));
+console.log(newProductList);
+*/
+const newProductList = [...firstProductList, ...secondProductList];
+console.log(newProductList);
