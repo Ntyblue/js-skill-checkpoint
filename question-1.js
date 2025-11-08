@@ -23,7 +23,7 @@ for (const fruit in inventory) {
   console.log(inventory[fruit]);
   console.log(inventory[fruit].price);
   */
-  totalPrice += inventory[fruit].price;
+  totalPrice += inventory[fruit].price * inventory[fruit].quantity;
 }
 
 console.log(`Total inventory value: ${totalPrice} baht`);
