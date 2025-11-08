@@ -14,4 +14,4 @@ userTaskList[3].task = "Go to the gym";
 //console.log(userTaskList);
 userTaskList.pop();
 //console.log(userTaskList);
-console.log(userTaskList[3]);
+console.log(`Task id:${userTaskList[3].id}, ${userTaskList[3].task} `);
